@@ -1,46 +1,85 @@
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            
-        }
-        h1{
-            text-align: center;
-        }
-        main{
-            display: flex;
-            justify-content: center;
-        }
-        table{
-           
-            border-collapse: collapse;
-        }
-        td{
-            width: 50px;
-            height: 50px;
-            font-size: 0.5em;
-            border: 1px solid black;
-            text-align: center;
-            line-height: 0.1em;
-            padding: 0px;
-        }
-        th{
-            width: 50px;
-            height: 50px;
-            font-size: 0.5em;
-            
-        }
-        .standard, .peso{
-            font-weight: bold;
-        }
-        .simbolo{
-            font-size: 1.5em;
-            font-weight: bold;
-        }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 
-        .lantanoides{
-            background-color: #f1ba9b;
+h1{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    
+    border-collapse: collapse;
+}
+
+td{
+    width: 50px;
+    height: 50px;
+    font-size: 0.5em;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 0.1em;
+    padding: 0px;
+}
+
+th{
+    width: 50px;
+    height: 50px;
+    font-size: 0.5em;
+    
+}
+
+.standard, .nome, .peso{
+    font-weight: bold;
+}
+
+.simbolo{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nao-metal{
+    background-color: #f47469;
+}
+
+.metal-alcalino{
+background-color: #d1ac82;
+}
+
+.metal-alcalinoterroso{
+    background-color: #f99b44;
+}
+
+.metal-de-transicao{
+    background-color: #358ac3
+}
+
+.metais-representativos{
+    background-color: #9ca99a;
+}
+
+.semimetais{
+    background-color: #f8cc4f;
+}
+
+.halogeneos{
+    background-color: #beca40;
+}
+
+.gases-nobres{
+    background-color: #2cc7f3;
+}
+
+.lantanoides{
+    background-color: #f237a2;
             
-        }
-        .actnoides{
-            background-color: #e5885c;
-        }
+}
+.actnoides{
+    background-color: #7dc16a;
+}
         
